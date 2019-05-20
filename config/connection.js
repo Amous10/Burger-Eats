@@ -11,7 +11,9 @@ connection = mysql.createConnection({
   user: 'root',
   password: 'password',
   database: 'burger_DB'
-});
+
+})
+};
 
 // Make connection.
 connection.connect(function(err) {
@@ -23,4 +25,5 @@ connection.connect(function(err) {
 });
 
 // Export connection for our ORM to use.
+connection.connect();
 module.exports = connection;
