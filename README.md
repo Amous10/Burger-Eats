@@ -1,13 +1,18 @@
-# Burger
+# Burger Eats
 
-### Overview
+### Development
 
-_Friend Finder_ is a simple logging app where user can order new burgers in input and then 'devour' them. Logs all burgers ordered and eaten. Following the MVC design pattern, it uses Node and MySQL to query and route data in the app, and Handlebars to generate HTML.
+A full stack application using MVC pattern with the front end implemented with HTML, CSS, and Bootstrap, and the back end with Node.js and Express.  Data is stored in a MySQL database.  HTML templating is done handled with the use of Handlebars.
 
-### Technologies Utilized
 
-The application is implemented using a [Node.js](https://nodejs.org/en/) and [Express](https://expressjs.com/) server on the back end. It also uses MySQL, Bootstrap, Handlebars.js
+### User
 
-## Demo
+User selects burgers on the menu to "devour". Custom burgers can be created and deleted. Burgers may be restored from recent orders. 
 
-This here _Burger_ is deployed to my Heroku. Please check it out [here](https://tranquil-castle-20899.herokuapp.com/).
+### Deployed by Heroku here
+
+[Burger Eats](https://.herokuapp.com/)
+
+##### App Created and Maintained by
+
+* Amy Merrill
